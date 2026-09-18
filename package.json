@@ -2,15 +2,31 @@
   "name": "zero-to-tech-4-5",
   "version": "0.1.0",
   "private": true,
+  "description": "4.5 的终点成品：把 4.4 的 React 项目整体搬到 Next.js。网站长相不变；变的是路由层（手搓 `useRoute` → 文件夹路由）和入口（`index.html` + `main.jsx` + `App.jsx` → `app/`）。",
+  "homepage": "https://github.com/shoureiNN/zero-to-tech5#readme",
+  "bugs": {
+    "url": "https://github.com/shoureiNN/zero-to-tech5/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoureiNN/zero-to-tech5.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "animejs": "^4.4.1",
+    "animejs": "^4.5.0",
     "next": "^15.0.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
   }
 }
